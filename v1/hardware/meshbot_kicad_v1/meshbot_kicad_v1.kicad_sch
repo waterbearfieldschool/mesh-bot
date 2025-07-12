@@ -3671,28 +3671,6 @@
 			)
 		)
 	)
-	(global_label "SCL_MESH"
-		(shape input)
-		(at 111.76 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "07694a45-a77b-4f64-b2e7-b93055f0fa9e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.3608 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPS_RX"
 		(shape input)
 		(at 29.21 46.99 180)
@@ -4771,6 +4749,28 @@
 			)
 		)
 	)
+	(global_label "SCL_MESH"
+		(shape input)
+		(at 259.08 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6040c4ff-4c7e-4286-b9e8-41211771c3e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.6808 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 40.64 151.13 180)
@@ -4991,6 +4991,50 @@
 			)
 		)
 	)
+	(global_label "SDA_MESH"
+		(shape input)
+		(at 259.08 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75729399-0872-42b9-9dd2-541a814506ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.7413 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 111.76 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7844aa6e-e169-49ab-a4b8-21592276479a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.3133 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 148.59 100.33 180)
@@ -5158,28 +5202,6 @@
 		(uuid "88f15504-ae25-4b0d-abfa-c902a2c61235")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 211.3257 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 259.08 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8a6f655d-2a9d-49cc-9ea8-1a27f9fa0cf3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.5728 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,28 +6113,6 @@
 			)
 		)
 	)
-	(global_label "SDA_MESH"
-		(shape input)
-		(at 111.76 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d11b5051-f300-48af-954e-7d1f034ea5ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.4213 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 29.21 31.75 180)
@@ -6214,28 +6214,6 @@
 		(uuid "d49bc3b4-7935-4ec8-92b9-4e548c6f0b06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.8871 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 259.08 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d90d1945-98d2-4869-8cac-c1480c9b80d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.6333 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,6 +6615,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 111.76 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5607099-15de-472e-a42d-79bac4fed931")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.2528 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

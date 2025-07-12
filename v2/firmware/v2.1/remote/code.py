@@ -33,6 +33,8 @@ text="startup ..."
 ta = label.Label(terminalio.FONT, text=text, color=0xFFFF00, x=5, y=20)
 splash.append(ta)
 
+
+
 gps_loc = label.Label(terminalio.FONT, text="[no gps fix]", color=0xFFFF00, x=5, y=5)
 splash.append(gps_loc)
 
